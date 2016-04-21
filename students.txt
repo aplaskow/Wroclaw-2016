@@ -1,0 +1,7 @@
+Lecturer: 
+	Mariusz Nowostawski
+	Wojtek Kmiecik
+
+Students:
+
+
