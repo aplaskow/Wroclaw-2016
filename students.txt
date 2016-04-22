@@ -3,5 +3,6 @@ Lecturer:
 	Wojtek Kmiecik
 
 Students:
-	Adam ��towski
+	Adam Żółtowski
+	Aleksandra Płaskowicka
 
