@@ -15,9 +15,7 @@
     <!-- 2. Configure SystemJS -->
     <script>
       System.config({
-        transpiler: 'typescript',
-        typescriptOptions: { emitDecoratorMetadata: true },
-        packages: {'app': {defaultExtension: 'ts'}}
+        packages: {'app': {defaultExtension: 'js'}}
       });
       System.import('app/main')
             .then(null, console.error.bind(console));
