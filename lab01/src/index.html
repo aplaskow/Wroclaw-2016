@@ -3,29 +3,29 @@
   <head>
     <title>Angular 2 Hello World</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.css">
     <!-- 1. Load libraries -->
 
     <!-- lib:js -->
-    <!-- endinject -->
-
-    <!-- inject:js -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- endinject -->
 
     <!-- 2. Configure SystemJS -->
     <script>
       System.config({
-        packages: {'app': {defaultExtension: 'js'}}
-      });
-      System.import('app/main')
-            .then(null, console.error.bind(console));
+            packages: {'app': {defaultExtension: 'js'}}
+        });
+        System.import('app/main')
+                .then(null, console.error.bind(console));
     </script>
-
-    <link rel="stylesheet" href="styles.css">
   </head>
   <!-- 3. Display the application -->
   <body>
-    <hello-world>Loading...</hello-world>
+    <hello-world class="hello-world">Loading...</hello-world>
   </body>
 </html>
+
+
 
